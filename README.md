@@ -8,6 +8,16 @@
 <h4 style="font-weight: normal;">2. Open directory in terminal and execute book_scraper.py (In Windows Powershell this is done by typing "python book_scraper.py" in your terminal and pressing enter. Command varies depending on your OS!!!)</h4>
 <h4 style="font-weight: normal;">3. Have some fun with the project and enjoy!!!😀😄😁</h4>
 
+## You must have the following things installed!!!
+
+Python
+BeautifulSoup
+cv2
+os
+re
+
+You can check your installed python packages by running "pip list" in terminal ;)))
+
 ## Demo gif
 
 ![scraperdemo-MadewithClipchamp1-ezgif com-video-to-gif-converter](https://github.com/user-attachments/assets/66524e2f-4484-4bfb-928b-79283b75827c)
