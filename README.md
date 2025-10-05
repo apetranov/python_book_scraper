@@ -17,7 +17,7 @@
 
 ### P.S.: You also need to have Python🐍🐍🐍 installed on your device.
 
-#### You can check your installed python packages by running "pip list" in terminal ;)))
+#### You can check your installed Python packages by running "pip list" in terminal ;)))
 
 ## Demo gif
 
