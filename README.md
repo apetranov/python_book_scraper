@@ -8,7 +8,7 @@
 <h4 style="font-weight: normal;">2. Open directory in terminal and execute book_scraper.py (In Windows Powershell this is done by typing "python book_scraper.py" in your terminal and pressing enter. Command varies depending on your OS!!!)</h4>
 <h4 style="font-weight: normal;">3. Have some fun with the project and enjoy!!!😀😄😁</h4>
 
-## You MUST have the following pckages installed!!!❗❕❗
+## You MUST have the following packages installed!!!❗❕❗
 
 <h4>BeautifulSoup</h4> 
 <h4>cv2</h4>
