@@ -70,12 +70,12 @@ def scrape_book(title, save_as=None):
     #     "in_stock": in_stock
     # }
 
-    print(f"title: {title}")
-    print(f"image link: {img_src}")
-    print(f"saved path: {filepath}")
-    print(f"price: {price}")
-    print(f"rating: {rating}")
-    print(f"in_stock: {in_stock}")
+    print(f"Title: {title}")
+    print(f"Image link: {img_src}")
+    print(f"Saved file name: {save_as}.png")
+    print(f"Price: {price}")
+    print(f"Rating: {rating}")
+    print(f"In stock: {in_stock}")
 
     # Save image
     with open(filepath, "wb") as f:
@@ -145,8 +145,7 @@ while True:
     book_title = input("Enter book title or 'Q' to quit: ")
     if book_title == 'Q' or book_title == 'q':
             break
-    book = scrape_book(book_title)
-    if book:
+    if book_title:
         if book_title == 'Q' or book_title == 'q':
             break
         filename = input("Enter file save name for book image or 'Q' to quit: ")
