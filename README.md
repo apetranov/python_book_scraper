@@ -12,9 +12,9 @@
 
 <h4>Python</h4>
 <h4>BeautifulSoup</h4> 
-<h4>cv2</h4> cv2
-<h4>os</h4> os
-<h4>re</h4> re
+<h4>cv2</h4>
+<h4>os</h4>
+<h4>re</h4>
 
 You can check your installed python packages by running "pip list" in terminal ;)))
 
