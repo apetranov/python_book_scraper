@@ -144,10 +144,17 @@ while True:
     print(books)
     book_title = input("Enter book title or 'Q' to quit: ")
     if book_title == 'Q' or book_title == 'q':
-        break
-    filename = input("Enter file save name for book image or 'Q' to quit: ")
-    if filename == 'Q' or filename == 'q':
-        break
+            break
+    book = scrape_book(book_title)
+    if book:
+        if book_title == 'Q' or book_title == 'q':
+            break
+        filename = input("Enter file save name for book image or 'Q' to quit: ")
+        if filename == 'Q' or filename == 'q':
+            break
 
-    book = scrape_book(book_title,filename)
-    print(book)
+        book = scrape_book(book_title,filename)
+        print(book)
+    else:
+        break
+    
