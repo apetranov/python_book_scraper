@@ -4,9 +4,9 @@
 
 ## How to run locally???🤔💭🤔
 
-<h3>1. Clone repo or download repo as zip file.</h3>
-<h3>2. Open directory in terminal and execute book_scraper.py (In Windows Powershell this is done by entering "python book_scraper.py" and pressing anter. Command varies depending on your OS!!!)</h3>
-<h3>3. Have some fun with the project and enjoy!!!😀😄😁</h3>
+<h4 style="font-weight: normal;">1. Clone repo or download repo as zip file.</h4>
+<h4 style="font-weight: normal;">2. Open directory in terminal and execute book_scraper.py (In Windows Powershell this is done by entering "python book_scraper.py" and pressing enter. Command varies depending on your OS!!!)</h4>
+<h4 style="font-weight: normal;">3. Have some fun with the project and enjoy!!!😀😄😁</h4>
 
 ## Demo gif
 
