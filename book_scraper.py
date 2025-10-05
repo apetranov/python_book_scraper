@@ -45,18 +45,24 @@ def scrape_book(title, save_as=None):
     availability_text = article.find("p", class_="instock availability").text.strip()
     in_stock = "Yes" if "In stock" in availability_text else "No"
 
-    # Auto-generate filename if needed
-    if not save_as:
+        # Auto-generate filename if needed
+    if not save_as or save_as.strip() == "":
         save_as = f"book{book_number}.png"
-        book_number += 1
+        book_number += 1  # increment immediately
 
     # Sanitize filename
     safe_name = re.sub(r'[<>:"/\\|?*]', "_", save_as).strip()
     if safe_name == "":
+        # If sanitization removes everything, use next book number
         safe_name = f"book{book_number}.png"
         book_number += 1
+    # Ensure .png extension
     if not safe_name.lower().endswith(".png"):
         safe_name += ".png"
+
+
+
+
 
     os.makedirs("book_images", exist_ok=True)
     filepath = os.path.join("book_images", safe_name)
