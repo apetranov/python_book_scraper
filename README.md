@@ -10,10 +10,10 @@
 
 ## You MUST have the following 🐍 packages installed!!!❗❕❗
 
-<h4>BeautifulSoup🍲</h4> 
-<h4>cv2©️</h4>
-<h4>os🖥️</h4>
-<h4>re⌚</h4>
+<h4>BeautifulSoup</h4> 
+<h4>cv2</h4>
+<h4>os</h4>
+<h4>re</h4>
 
 ### P.S.: You also need to have Python🐍🐍🐍 installed on your device.
 
