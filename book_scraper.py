@@ -143,6 +143,9 @@ while True:
     print(f"All available book titles:")
     print(books)
     book_title = input("Enter book title or 'Q' to quit: ")
+    if book_title not in books:
+        print("A book with this title does NOT exist!❌")
+        break
     if book_title == 'Q' or book_title == 'q':
             break
     if book_title:
