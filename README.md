@@ -12,8 +12,8 @@
 
 <h4>BeautifulSoup</h4> 
 <h4>cv2</h4>
-<h4>os</h4>
-<h4>re</h4>
+<h4>os(comes together with Python by default but I advise you double check)</h4>
+<h4>re(comes together with Python by default but I advise you double check)</h4>
 
 ### P.S.: You also need to have Python🐍🐍🐍 installed on your device.
 
