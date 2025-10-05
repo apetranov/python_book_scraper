@@ -4,7 +4,8 @@
 
 # Demo video
 
-[![Watch the video](https://books.toscrape.com/media/cache/97/27/97275841c81e66d53bf9313cba06f23e.jpg)](https://www.youtube.com/watch?v=_J1z0oh2Ir0)
+[![Watch the video](https://github.com/user-attachments/assets/efc1de5f-9a72-4a7e-8da3-4f980d3d4689)](https://www.youtube.com/watch?v=_J1z0oh2Ir0)
+
 
 
 
