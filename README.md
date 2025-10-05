@@ -10,13 +10,14 @@
 
 ## You MUST have the following pckages installed!!!❗❕❗
 
-<h4>Python</h4>
 <h4>BeautifulSoup</h4> 
 <h4>cv2</h4>
 <h4>os</h4>
 <h4>re</h4>
 
-You can check your installed python packages by running "pip list" in terminal ;)))
+### P. S.: You also need to have Python install on your device.
+
+#### You can check your installed python packages by running "pip list" in terminal ;)))
 
 ## Demo gif
 
